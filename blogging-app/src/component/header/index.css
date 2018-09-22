@@ -1,0 +1,21 @@
+.header-style{
+    margin-top: 5px !important;
+}
+.header-container{
+    height: 60px;
+    min-height : 10%;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    background: rgb(188, 219, 245);
+}
+.div-style{
+    display: flex;
+    align-self: flex-end;
+    width: 20%;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+.header-width{
+    width: 80%;
+    margin-left: 10px;
+}

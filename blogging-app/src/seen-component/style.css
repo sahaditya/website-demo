@@ -1,0 +1,6 @@
+.body-style{
+    background: rgb(174, 241, 232);
+    min-height: 20%;
+    margin: 10px;
+    box-shadow: 0 2px 2px 0 rgba(214, 237, 238, 0.007);
+}

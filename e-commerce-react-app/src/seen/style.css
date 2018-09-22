@@ -1,0 +1,34 @@
+.blog-style{
+    border: 1px solid cyan;
+    padding: 5px;
+    margin: 5px;
+    background: rgb(229, 235, 235);
+}
+.app-form{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 47px auto;
+    width: 45%;
+}
+.address-style{
+    margin-left: 20px;
+}
+.checkout-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.btn-position{
+    margin-left: 485px;
+}
+.billingaddr-style{
+    margin-top: 10px;
+}
+.padding-style{
+    padding: 20px;
+}

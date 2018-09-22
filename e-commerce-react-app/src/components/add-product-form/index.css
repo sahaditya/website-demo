@@ -1,0 +1,16 @@
+.input-form {
+    justify-content: center;
+    flex-direction: column;
+}
+.input-style{
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--app-primary-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 8px 0;
+    width: 100%;
+    outline: none;
+    border: 1px;
+}

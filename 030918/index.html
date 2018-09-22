@@ -1,0 +1,299 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        window.onload = accordion;
+    </script>
+</head>
+<body>
+<div id="hr-black"></div>
+<header class="header-color" id="first-component">
+<div class = "flex-container">
+    <div id="icon-box"><img id="icon-style" src="images/icon.png"></div>
+    <div class="flex-container-inside">
+        <div class="">
+            <nav>
+                <a class = "nav-style" href="">DASHBOARD</a> 
+                <a class = "nav-style" href="">ACCOUNTS</a> 
+                <a class = "nav-style" href="">PAYMENTS</a> 
+                <a class = "nav-style" href="">TRADE FINANCE</a>
+                <a class = "nav-style" href="">ADMINISTRATION</a>
+                <a class = "nav-style" href="">GENERAL SERVICE</a>
+                <a class = "nav-style" href="">FAVOURITES</a>
+                <button id="btn-logout" onclick="alert('hey clicked')"><strong>LOG OUT </strong></button>
+            </nav>
+
+        </div>
+        <div class="flex-container full-width">
+            <div class="dropdown-position">
+            <div>
+                <label class="dropdown-header">Company Name</label>
+            </div>
+            <div class="dropdown-margin-style">
+                <select class="dropdown-style">
+                <option value="A">Urban Security Botswana Pvt. Ltd. 
+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                </select>
+            </div>
+            </div>
+            
+            <div class="dropdown-position">
+            <div>
+                <label class="dropdown-header">Division Id</label>
+            </div>
+            <div class="dropdown-margin-style">
+                <select class="dropdown-style">
+                <option value="W">Urban Security Botswana Pvt. Ltd.</option>
+                <option value="X">X</option>
+                <option value="Y">Y</option>
+                <option value="Z">Z</option>
+                </select>
+            </div>
+            </div>
+            <div class="my-profile-position flex-container">
+                <div id="avatar">
+                    <img class="profile-avatar" src="images/dummy-profile.png" alt="dummy image">
+                </div>
+                <div>
+                    <div id="welcom">Welcome</div>
+                    <div id="US">Urban Security Botswana Pvt. Ltd.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+<div class="flex-container" id="second-component">
+    <div class="img-box"><img class = "img-style" src="images/handshake.png"></div>
+    <div class="img-box"><img class = "img-style" src="images/user.png"></div>
+    <div class="img-box">
+        <div class="flex-container" id="inner-dropdown-div">
+            <div class="d-width">
+                <select class="inner-dropdown">
+                <option value="W">MY PROFILE</option>
+                <option value="X">X</option>
+                <option value="Y">Y</option>
+                <option value="Z">Z</option>
+            </select>
+            </div>
+            <div class="vr-divider"></div>
+            <div class="d-width">
+                <select class="inner-dropdown">
+                <option value="W">CONTACT US</option>
+                <option value="X">X</option>
+                <option value="Y">Y</option>
+                <option value="Z">Z</option>
+            </select>
+            </div>
+            <div class="vr-divider"></div>
+            <div id="A-font">A</div>
+        </div>
+        <img class = "img-style" id="inner-image" src="images/waiting-people.png">
+    </div>
+</div>
+
+<div id = "third-component" class="flex-container">
+    <section id="tc-section-style">
+        <div class="text-padding-payments"><strong>Payments</strong></div>
+        <div>
+            <button class="accordion">Make Payment 
+                <i class="fa arrow-style fa-angle-down" ></i>
+            </button>
+            <div class="panel">
+                <ul class="list-style">
+                    <li class="list-item-style">Once off- Outside Capital Bank</li>
+                    <li class="list-item-style">Once off- Within Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Outside Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Within Capital Bank</li>
+                    <li class="list-item-style">Foriegn Payment</li>
+                    <li class="list-item-style">Transfer Funds Between Own Accounts</li>
+                    <li class="list-item-style list-style-color">Multi Benificiary Payment</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <button class="accordion">View Payment Details
+                <i class="fa arrow-style fa-angle-down" ></i>
+            </button>
+            <div class="panel">
+                <ul class="list-style">
+                    <li class="list-item-style">Once off- Outside Capital Bank</li>
+                    <li class="list-item-style">Once off- Within Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Outside Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Within Capital Bank</li>
+                    <li class="list-item-style">Transfer Funds Between Own Accounts</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <button class="accordion">E-Payments and Collections (files)
+                <i class="fa arrow-style fa-angle-down" ></i>
+            </button>
+            <div class="panel">
+                <ul class="list-style">
+                    <li class="list-item-style">Once off- Outside Capital Bank</li>
+                    <li class="list-item-style">Once off- Within Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Outside Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Within Capital Bank</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <button class="accordion">Manage Beneficairies
+                <i class="fa arrow-style fa-angle-down"></i>
+            </button>
+            <div class="panel">
+                <ul class="list-style">
+                    <li class="list-item-style">Once off- Outside Capital Bank</li>
+                    <li class="list-item-style">Once off- Within Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Outside Capital Bank</li>
+                    <li class="list-item-style">Benificiary Payment- Within Capital Bank</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <aside class="flex-design">
+        <div id="bread-crumb-style">
+            <p id="bread-crumb-style-text"><strong>PAYMENTS</strong>: <spna>Make Payments</spna> <span class="gap-between-text">/</span> Multi Benificary Payment <span class="gap-between-text">/</span> <strong>Initial Bulk Payment</strong>
+            <img id="printer-img-style" src="images/printer-pic.png" alt="print"></p>
+        </div>
+        <div>
+           <p><img src="images/left-arrow.png" class="img-left-arrow"><span id="bulk-payment">Initial Bulk Payment</span></p>
+            <div>
+                    <div class="flex-container inner-div" id="">
+                        <div class="squar-box"><p>1</p></div>
+                        <div id="hr"></div>
+                        <div class="squar-box" id="squar-position-right"><p>2</p></div>
+                    </div>
+            </div>
+            <div>
+                    <div class="inner-div" id="inner-div-text">
+                        <p class="enter-detail-style">Enter Details <span class="right-text-alignment-cnf">Confirmation</span></p>
+                    </div>
+            </div>
+        </div>
+        <div id="details-border-style" class="details-flex-design background-theme">
+            <div class="text-padding">
+                <strong id="acd-style">Account Grouping Details</strong>
+            </div>
+            <div class="flex-container background-theme">
+                <div class="user-detail-style user-detail-style-group-text">Group Name</div>
+                <div class="user-detail-style">:<span class="user-detail-style-name-text">Moonraft Group</span></div>
+                <div class="user-detail-style user-detail-style-group-text">Group Currency</div>
+                <div class="user-detail-style">:<span class="user-detail-style-name-text">BWP</span></div>
+            </div>
+            <br>
+            <div class="text-padding margin-style">
+                <p>
+                    <span id="payment-text-style">Payment List</span>
+                    <span id="display-resulttext-style">Displaying 1-1 Result</span>
+                </p>
+            </div>
+            <div id="report-table"class="flex-design">
+                <div class="table-flex" id="first-row">
+                        <div class="table-flex-div col-width table-header-style"><strong>PAYEE NICKNAME</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>DEBIT ACCOUNT</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>TRANSACTION TYPE</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>CURRENCY</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>AMOUNT</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>TRNSACTION ID</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>COMPANY NAME</strong></div>
+                        <div class="table-flex-div col-width table-header-style"><strong>ACCOUNT NUMBER</strong></div>
+                </div>
+                <div class="divider-hr"></div>
+                <div class="table-flex" id="second-row">
+                    <div class="table-flex-div col-width details-font-style">Kamogelo</div>
+                    <div class="table-flex-div col-width details-font-style">0022001100123 - Lesdi</div>
+                    <div class="table-flex-div col-width details-font-style">Benificiary Payment Outside Capital Bank</div>
+                    <div class="table-flex-div col-width details-font-style">BWP</div>
+                    <div class="table-flex-div col-width details-font-style">2,111999.00</div>
+                    <div class="table-flex-div col-width details-font-style">02-oct-2017</div>
+                    <div class="table-flex-div col-width details-font-style">abc</div>
+                    <div class="table-flex-div col-width details-font-style">112342</div>
+                </div>
+                <div class="divider-hr"></div>
+                <div class="table-flex" id="third-row">
+                    <div class="table-flex-div col-width details-font-style">Kamogelo</div>
+                    <div class="table-flex-div col-width details-font-style">0022001100123 - Lesdi</div>
+                    <div class="table-flex-div col-width details-font-style">Benificiary Payment Outside Capital Bank</div>
+                    <div class="table-flex-div col-width details-font-style">BWP</div>
+                    <div class="table-flex-div col-width details-font-style">2,111999.00</div>
+                    <div class="table-flex-div col-width details-font-style">02-oct-2017</div>
+                    <div class="table-flex-div col-width details-font-style">abc</div>
+                    <div class="table-flex-div col-width details-font-style">112342</div>
+                </div>
+                <div class="divider-hr"></div>
+                <div class="table-flex" id="fourth-row">
+                   <div class="table-flex-div col-width details-font-style">Kamogelo</div>
+                    <div class="table-flex-div col-width details-font-style">0022001100123 - Lesdi</div>
+                    <div class="table-flex-div col-width details-font-style">Benificiary Payment Outside Capital Bank</div>
+                    <div class="table-flex-div col-width details-font-style">BWP</div>
+                    <div class="table-flex-div col-width details-font-style">2,111999.00</div>
+                    <div class="table-flex-div col-width details-font-style">02-oct-2017</div>
+                    <div class="table-flex-div col-width details-font-style">abc</div>
+                    <div class="table-flex-div col-width details-font-style">112342</div>
+                </div>
+                <div class="divider-hr"></div>
+                <div class="table-flex" id="fifth-row">
+                   <div class="table-flex-div col-width details-font-style">Kamogelo</div>
+                    <div class="table-flex-div col-width details-font-style">0022001100123 - Lesdi</div>
+                    <div class="table-flex-div col-width details-font-style">Benificiary Payment Outside Capital Bank</div>
+                    <div class="table-flex-div col-width details-font-style">BWP</div>
+                    <div class="table-flex-div col-width details-font-style">2,111999.00</div>
+                    <div class="table-flex-div col-width details-font-style">02-oct-2017</div>
+                    <div class="table-flex-div col-width details-font-style">abc</div>
+                    <div class="table-flex-div col-width details-font-style">112342</div>
+                </div>
+                <div class="divider-hr"></div>
+                <div class="table-flex" id="sixth-row">
+                    <div class="table-flex-div col-width details-font-style">Kamogelo</div>
+                    <div class="table-flex-div col-width details-font-style">0022001100123 - Lesdi</div>
+                    <div class="table-flex-div col-width details-font-style">Benificiary Payment Outside Capital Bank</div>
+                    <div class="table-flex-div col-width details-font-style">BWP</div>
+                    <div class="table-flex-div col-width details-font-style">2,111999.00</div>
+                    <div class="table-flex-div col-width details-font-style">02-oct-2017</div>
+                    <div class="table-flex-div col-width details-font-style">abc</div>
+                    <div class="table-flex-div col-width details-font-style">112342</div>
+                </div>
+            </div>
+        </div>
+        <div class="white-background margin-style-t-password">
+            <div id="password-cnf-form">
+                <div id="cnf-text-style">Confirmation Details</div>
+                <div>
+                    <label for="transaction-password"><span id="transaction-password-text">Transaction Password</span></label><br>
+                    <input type="text" name="password" id="transaction-password-input" placeholder="Enter Password" onfocus="removeMsg();"><br>
+                    <label for="transaction-password" id="sidenote-t-password">(Used for auditing purpose only)</label>
+                </div>
+                <div class="hide" id="warnning-message">
+                </div>
+                <hr>
+                <div class="flex-desing-btns">
+                    <button class="proceed-btn" onClick="validate();">Proceed</button>
+                    <div id="gap-between-btn"></div>
+                    <button class="btn-design">Back</button>
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>
+<footer>
+    <div id="footer-style">
+        <div id="footer-inner-div">
+            <p>Site Map <span class="footer-bar-style">|</span> Privacy Policy <span class="footer-bar-style">|</span> Terms & Conditions <span class="footer-bar-style">|</span> Disclaimer </p>
+            
+        </div>
+        <div id="footer-inner-div-below-text">
+            <p>Cut off time EFT - 2 PM, RTGS -1:30 PM Finance eBanking, All Right Reserved</p>
+            
+        </div>
+        
+    </div>
+</footer>
+</body>        
+</html>

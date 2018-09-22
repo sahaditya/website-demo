@@ -1,0 +1,29 @@
+.body-style{
+    background: cyan;
+    width: initial;
+    height: 650px;
+}
+.at-center{
+    width: 50%;
+    margin: 0 auto;
+}
+.header-style{
+    display: flex;
+    height: 30px;
+    text-align: center;
+    background: rgb(0, 255, 191);
+}
+.border-style{
+    border: 1px solid;
+}
+.padding-style{
+    padding: 1px;
+}
+.box-style{
+    text-align: center;
+}
+.list-style{
+    background: rgb(152, 167, 194);
+    border: 1px solid;
+    padding: 1px;
+}
